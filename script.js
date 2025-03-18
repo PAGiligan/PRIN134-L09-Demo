@@ -18,3 +18,11 @@ document.getElementById("check-instructions").addEventListener("click", function
       });
     }, 3000);
 });
+
+document.getElementById("reset-instructions").addEventListener("click", function() {
+      const instructions = document.querySelectorAll("#recipe-instructions li");
+      instructions.forEach(item => {
+        item.classList.remove("is-done");
+      })
+
+    })
