@@ -41,3 +41,20 @@ ol li {
 .highlight {
   background-color: yellow;
 }
+
+#buttons {
+  text-align: center;
+  margin: 20px;
+}
+
+#buttons button {
+  color:teal;
+  padding: 20px;
+  background-color: #ffc1cc;
+}
+
+#buttons button:hover {
+  color:black;
+  background-color:bisque;
+  transition:0.6;
+}
